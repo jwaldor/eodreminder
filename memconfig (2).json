@@ -1,0 +1,23 @@
+{
+  "schema": {
+    "types": [
+      {
+        "name": "Root",
+        "actions": [
+          {
+            "name": "poll",
+            "type": "Void"
+          },
+          {
+            "name": "configure",
+            "type": "Void"
+          }
+        ]
+      }
+    ]
+  },
+  "dependencies": {
+    "http": "http:",
+    "channel": "slack:channels.one(id:\"C0770T373BJ\")"
+  }
+}
